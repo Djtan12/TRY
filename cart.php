@@ -11,7 +11,7 @@
 		session_destroy();
 		header("location: login.php");
 	}
-	//update product in cart
+	//update product in cart, sample
 
 	if (isset($_POST['update_cart'])) {
 		$cart_id = $_POST['cart_id'];
